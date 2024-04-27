@@ -1,0 +1,119 @@
+/* Grundlegende Reset-Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif; /* Moderne, saubere Schriftart */
+}
+
+/* Körper und allgemeines Layout */
+body {
+    background-color: #f0f8ff; /* Sehr helles Blau als Hintergrundfarbe */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Kopfzeile */
+header {
+    background-color: #005b96; /* Kräftiges Blau für die Kopfzeile */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Logo */
+#logo {
+    height: 60px; /* Anpassen nach der Größe Ihres Logos */
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #007bff; /* Helle Blaufärbung für die Navigation */
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #d4e6f1; /* Leichteres Blau für Hover-Effekt */
+    text-decoration: underline;
+}
+
+/* Hauptinhalt */
+main {
+    padding: 20px;
+    background: white; /* Weißer Hintergrund für den Hauptinhalt */
+}
+
+/* Typografie für Überschriften */
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+h1 {
+    margin-bottom: 1rem;
+    color: #007bff; /* Blaue Akzentfarbe für die Hauptüberschrift */
+}
+
+/* Abschnitte */
+section {
+    margin: 1rem 0;
+    padding: 1rem;
+    background-color: #e7f2fa; /* Sehr helles Blau für Abschnittshintergründe */
+}
+
+/* Artikelboxen für Leistungen */
+article {
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    background-color: #fff; /* Weißer Hintergrund für Artikelboxen */
+}
+
+/* Fußzeile */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Responsive Design für kleine Bildschirme */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    nav ul li {
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Hinzufügen von Bildern - Sie sollten eigene Pfade zu den Bildern angeben */
+.background-image {
+    background-image: url('path-to-your-background-image.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.service-image {
+    width: 100%;
+    height: auto;
+}
